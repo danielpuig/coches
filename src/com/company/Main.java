@@ -21,5 +21,7 @@ public class Main {
 
         System.out.println("Muestro el ford: " + cocheList.get(0));
 
+        System.out.println("Muestro el Lamborghini: " + cocheList.get(1));
+
     }
 }
