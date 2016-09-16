@@ -1,5 +1,7 @@
 package com.company;
 
+import java.io.BufferedReader;
+import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -24,6 +26,16 @@ public class Main {
         System.out.println("Muestro el Lamborghini: " + cocheList.get(1));
 
         System.out.println("Muestro el Ferrari: " + cocheList.get(2));
+
+        HashMap<String, Coche> map = new HashMap<String, Coche>();
+
+        map.put(ford.getMatricula(), ford);
+        map.put(lambo.getMatricula(), lambo);
+        map.put(ferrari.getMatricula(), ferrari);
+
+        System.out.println("Matricula Ford HashMap: " + map.get(ford.getMatricula()));
+
+        System.out.println("Muestro los indices: " + map.keySet());
 
     }
 }
