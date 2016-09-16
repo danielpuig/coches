@@ -23,5 +23,7 @@ public class Main {
 
         System.out.println("Muestro el Lamborghini: " + cocheList.get(1));
 
+        System.out.println("Muestro el Ferrari: " + cocheList.get(2));
+
     }
 }
